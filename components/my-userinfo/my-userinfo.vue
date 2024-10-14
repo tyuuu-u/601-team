@@ -10,11 +10,11 @@
 		<!-- Third panel -->
 		<view class="panel">
 			<view class="panel-list-item" @click="chooseAddress">
-				<text>地址管理</text>
+				<text>address management</text>
 				<uni-icons type="arrowright" size="15"></uni-icons>
 			</view>
 			<view class="panel-list-item" @click="logout">
-				<text>退出</text>
+				<text>log out</text>
 				<uni-icons type="arrowright" size="15"></uni-icons>
 			</view>
 		</view>
