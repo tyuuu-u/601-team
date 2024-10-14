@@ -26,7 +26,7 @@ export default {
     // Get basic information of WeChat user
     getUserInfoPro(e) {
       uni.getUserProfile({
-        desc: '登录',
+        desc: 'login',
         success: (res) => {
           // Store the user's basic information in vuex, all encrypted information
           console.log(res)
@@ -44,7 +44,7 @@ export default {
       const [err, res] = await uni.login().catch(err => err)
       console.log(res, 'unilogin')
       // Determine if uni.login() call failed
-      if (err || res.errMsg !== 'login:ok') return uni.$showError('uni.login登录失败！')
+      if (err || res.errMsg !== 'login:ok') return uni.$showError('uni.login failed！')
 
       // Prepare parameter object
       const query = {
@@ -57,8 +57,8 @@ export default {
       // Exchange for token
       const loginRes = await uni.$http.post('/login/wxLogin', query)
       console.log('Got the token', loginRes.data.data)
-      if (loginRes.data.code !== 200) return uni.$showMsg('登录失败！')
-      uni.$showMsg('登录成功')
+      if (loginRes.data.code !== 200) return uni.$showMsg('failed！')
+      uni.$showMsg('success')
       console.log('Prepared login parameters', query)
 
       this.updateToken(loginRes.data.data)
@@ -76,7 +76,7 @@ export default {
           url: this.redirectInfo.from,
           // After successful navigation, reset redirectInfo object in vuex to null
           complete: () => {
-            uni.$showMsg('登录成功')
+            uni.$showMsg('success')
             this.updateRedirectInfo(null)
           }
         })
