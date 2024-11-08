@@ -1,1 +1,1 @@
-online ordering system for coffee shop
+Online Ordering System for Coffee Shops
