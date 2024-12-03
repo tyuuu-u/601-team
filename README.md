@@ -40,3 +40,23 @@ uni-app is a versatile framework built on Vue.js, enabling developers to write a
 Vue.js is a progressive framework for building user interfaces based on the MVVM (Model-View-ViewModel) architecture. It combines the best features of AngularJS and React, offering a component-based structure and efficient two-way data binding. The MVVM model ensures seamless communication between the backend data (Model), the user interface (View), and the bridge connecting them (ViewModel).
 ### Backend Framework: Spring Boot
 Spring Boot simplifies the development of Spring-based applications by providing pre-configured setups and centralized configuration management. It allows developers to focus on coding business logic without extensive configuration overhead. Custom configurations can be easily managed, while default settings handle common requirements effectively, streamlining the development process.
+## System Architecture Design
+The system adopts a front-end and back-end separation architecture, dividing the design into three main components: client-side (frontend), server-side (backend), and database. 
+### Frontend and Backend Separation
+The architecture separates the responsibilities of data processing and user interface presentation, providing the following benefits:
+
+Decoupled Development: The frontend interacts with the backend through RESTful API interfaces and JSON data, allowing both teams to focus on their respective domains.
+
+Enhanced Flexibility and Maintainability: By isolating frontend display logic from backend data handling, the system becomes easier to maintain, update, and extend.
+
+Improved Efficiency: Developers can work independently, accelerating development while maintaining code quality.
+
+Component Independence: Frontend and backend components can be optimized and updated individually, reducing costs and risks associated with system maintenance.
+### Database: MySQL
+The system uses MySQL as the persistent storage solution, providing:
+
+Data Accessibility: The database design supports backend integration and enables reliable data interfaces for frontend interaction.
+
+Administrative Ease: Administrators and operators can manage and manipulate data conveniently through backend APIs.
+
+Reliability and Scalability: The design ensures data stability and lays a foundation for future system expansion.
