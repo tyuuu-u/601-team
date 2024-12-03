@@ -60,3 +60,5 @@ Data Accessibility: The database design supports backend integration and enables
 Administrative Ease: Administrators and operators can manage and manipulate data conveniently through backend APIs.
 
 Reliability and Scalability: The design ensures data stability and lays a foundation for future system expansion.
+## Database Design
+This system uses MySQL as the database to ensure consistent data sharing and updates across the customer app, shop owner panel, and admin interface via backend APIs. The E-R model defines entities like shop owners, shops, drink categories, drinks, reviews, and orders, with relationships such as one-to-one (shop owners to shops), one-to-many (categories to drinks), and many-to-many (orders to drinks). This structure provides efficient data organization and supports seamless multi-endpoint interaction.
