@@ -11,10 +11,12 @@ Contactless Ordering: Place orders directly from your smartphone by scanning a Q
 Customizable Menu: Explore available items and customize your beverages easily.
 Real-time Updates: Receive notifications about the status of your order, from preparation to pickup.
 Secure Payments: Pay seamlessly using integrated payment methods.
+
 For Coffee Shop Staff and Managers
 Order Management: Track and manage incoming orders in real-time.
 Inventory Tracking: Automatically update inventory based on orders.
 Task Allocation: Streamline operations by assigning tasks to staff efficiently.
+
 For Delivery Drivers
 Efficient Pickup: Locate and pick up orders easily with real-time status updates.
 Improved Accuracy: Ensure correct and timely deliveries.
