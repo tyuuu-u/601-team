@@ -70,3 +70,20 @@ The PC-side pages for merchants and administrators share a similar design layout
 The merchant page includes sections such as Beverages, Categories, Orders, Reviews, and Store Information, with modular tags for better organization. The content area adapts to different functionalities: list pages provide query tools with buttons at the top, while add or edit pages utilize forms with input fields and submission buttons, and detail pages display key information with relevant action buttons. 
 ### Admin Page Design
 The administrator page features sections like Review Management, Merchant Management, and Store Management, with multi-level tags for clear categorization. The content area focuses on list displays, offering features such as querying, adding, editing, and deleting, supported by input fields and operation buttons. Both designs emphasize clarity and functionality, with additional components incorporated based on specific needs.
+## Project application process display
+### Web page display
+![IMG_4153](https://github.com/user-attachments/assets/8cfe54a7-aa3e-401e-b27c-9478aa78a594)
+![IMG_4154](https://github.com/user-attachments/assets/ead20bda-b1ed-4a53-be9f-216edb2c92f8)
+![IMG_4155](https://github.com/user-attachments/assets/ce6233d3-eabe-452a-b837-f262ed44f3a3)
+![IMG_4156](https://github.com/user-attachments/assets/f9d41b64-5de7-4e58-94b0-441d6fe874bd)
+![IMG_4157](https://github.com/user-attachments/assets/16aaf207-b8ca-4d3f-98ad-06323940b3d5)
+![IMG_4158](https://github.com/user-attachments/assets/77d11fce-d480-40d1-8691-f2522c0cc602)
+![IMG_4159](https://github.com/user-attachments/assets/4169d118-57bb-49f9-82f8-5f31bcdf3361)
+### Client display
+![IMG_4161](https://github.com/user-attachments/assets/d2739cad-5210-4813-8fce-e1465e74e7d7)
+![IMG_4162](https://github.com/user-attachments/assets/f2d4781f-7bc4-40c0-8468-da0140ac4b16)
+![IMG_4163](https://github.com/user-attachments/assets/e46ea6e3-de3f-413b-9f53-343c505b6f3d)
+![IMG_4164](https://github.com/user-attachments/assets/5a1d4fd0-0bcc-4ae7-8abe-62670d3b4bae)
+![IMG_4167](https://github.com/user-attachments/assets/efa7357a-a6b1-4b52-a137-3d56b8fb2780)
+![IMG_4168](https://github.com/user-attachments/assets/009bd715-4f67-47e2-a720-4d89abd1c7be)
+![IMG_4166](https://github.com/user-attachments/assets/f315558b-a443-4f7e-83ab-8293f0515804)
