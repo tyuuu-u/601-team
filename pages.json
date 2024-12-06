@@ -1,0 +1,104 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+
+		}
+
+	}, {
+		"path": "pages/cart/cart",
+		"style": {
+
+		}
+
+	}, {
+		"path": "pages/order/order",
+		"style": {
+
+		}
+
+
+	}, {
+		"path": "pages/my/my",
+		"style": {
+
+		}
+
+	}],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+			"path": "food_list/food_list",
+			"style": {
+
+			}
+
+		}, {
+			"path": "food_detail/food_detail",
+			"style": {
+
+			}
+
+		}, {
+			"path": "checkout/checkout",
+			"style": {
+
+			}
+
+		}, {
+			"path": "order_detail/order_detail",
+			"style": {
+			}
+
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "orange",
+		"navigationBarTitleText": "年糕爱奶茶",
+		"navigationBarBackgroundColor": "#fbb285",
+		"backgroundColor": "#fbb285",
+		"app-plus": {
+			"background": "#fbb285"
+		},
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-submit-bar": "wxcomponents/vant/submit-bar/index",
+			"van-icon": "wxcomponents/vant/icon/index",
+			"van-stepper": "wxcomponents/vant/stepper/index",
+			"van-card": "wxcomponents/vant/card/index",
+			"van-divider": "wxcomponents/vant/divider/index",
+			"van-cell": "wxcomponents/vant/cell/index",
+			"van-cell-group": "wxcomponents/vant/cell-group/index",
+			"van-dialog": "wxcomponents/vant/dialog/index",
+			"van-field": "wxcomponents/vant/field/index"
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#fbb285",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "HOME",
+				"iconPath": "static/tab-icon/home.png",
+				"selectedIconPath": "static/tab-icon/home-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "cart",
+				"iconPath": "static/tab-icon/cart.png",
+				"selectedIconPath": "static/tab-icon/cart-active.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "My Orders",
+				"iconPath": "static/tab-icon/list.png",
+				"selectedIconPath": "static/tab-icon/list-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "personal centre",
+				"iconPath": "static/tab-icon/my.png",
+				"selectedIconPath": "static/tab-icon/my-active.png"
+			}
+		]
+	}
+}
